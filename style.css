@@ -1,0 +1,17 @@
+img  { width: 200px; height: 250px; }
+table {
+  border-collapse: collapse;
+  border: 2px black solid;
+  width:100%
+}
+th {
+  background-color: gray;
+  width: 200px;
+}
+th, td {
+    padding: 10px;
+  }
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}

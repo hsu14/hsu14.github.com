@@ -13,8 +13,6 @@
 <div data-role="page" id="mainPage">
 	<div data-role="header" data-theme="b">
 		<h1>밴드</h1>
-		<a href="#">Before</a>
-		<a href="#">next</a>
 	</div>
 	
 	<div data-role="content">
@@ -22,22 +20,34 @@
 			<li><a href="#sixxAM">Sixx A.M.</a></li>
 			<li><a href="#muse">Muse</a></li>
 			<li><a href="#nightwish">Nightwish</a></li>
-			<li><a href="#santana">Santana</a></li>
-			<li><a href="#black">Black Veil Brides</a></li>
 		</ul>
-		<a data-role="button" href="#">참고 사이트</a>
+		<a data-role="button" href="#info">참고 사이트</a>
+		<a data-role="button" href="my info.html" target="_blank">이력서</a>
+		
+		<audio controls width="100%" preload="metadata">
+				<source src="hysteria.mp3" type="audio/mp3">
+			</audio>		
 		
 	</div>
 	<div data-role="footer" data-position="fixed" align="center" data-theme="b">
+	
 		<button data-icon="arrow-l" data-iconpos="notext" data-inline="true">Back</button>
 		<button data-icon="home" data-iconpos="notext" data-inline="true"><a href="#mainPage">home</a></button>
 		<button data-icon="refresh" data-iconpos="notext" data-inline="true">Refresh</button>
 	</div>
 </div>
 
+
+
+
+
+
+
+
+
 	<div data-role="page" id="sixxAM" data-theme="b">
-		<div data-role="header" data-theme="b">
-			<a href="#mainPage" data-icon="arrow-l" data-direction="reverse">처음</a>			
+		<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="home">
+						
 			<h1>Sixx A.M.</h1>
 		</div>
 		<div data-role="content">
@@ -66,13 +76,9 @@
 						<li><img src="7.jpg">7</li>
 					</ul>
 				</div>
-				<div data-role="collapsible" >
-					<h3>best known for their songs</h3>
-				<ul data-role="listview">
-						<li><a href="#1" data-rel="dialog">Life Is Beautiful</a></li>
-						<li><a href="#life" >Lies of the Beautiful People</a></li>
-					</ul>
-				</div>
+				
+				<a data-role="button" href="#life">best known for their songs</a>
+				
 			</div>
 		</div>
 		
@@ -83,14 +89,22 @@
 		</div>
 	</div>
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<div data-role="page" id="muse" data-theme="b">
-		<div data-role="header" data-theme="b">
-			<a href="#mainPage" data-icon="arrow-l">처음</a>			
+		<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="home">		
 			<h1>Muse</h1>
 		</div>
 		<div data-role="content">
 				<div  style="text-align:center">
-					<img src="Sixx_AM.jpg">
+					<img src="muse.jpg">
 				</div>			
 			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
 				<div data-role="collapsible" data-collapsed="true">
@@ -101,28 +115,20 @@
 				<div data-role="collapsible">
 					<h3>Members</h3>
 					<ul data-role="listview">
-						<li><img src="DJ_Ashba.jpg">Matt Bellamy</li>
-						<li><img src="Nikki_Sixx.jpg">Dominic Howard</li>
-						<li><img src="JamesMichael.jpg">Chris Wolstenholme</li>
+						<li><img src="Matthew_Bellamy.jpg">Matt Bellamy</li>
+						<li><img src="Dominic_Howard.jpg">Dominic Howard</li>
+						<li><img src="Chris_Wolstenholme.jpg">Chris Wolstenholme</li>
 					</ul>
 				</div>
 				<div data-role="collapsible" >
 					<h3>Ambum</h3>
 					<ul data-role="listview">
-						<li><img src="X-Mas_In_Hell.jpg">Showbiz</li>
-						<li><img src="Live_is_beautiful">Origin of Symmetry</li>
-						<li><img src="7.jpg">Absolution</li>
-						<li><img src="7.jpg">Black Holes and Revelations</li>
-						<li><img src="7.jpg">The Resistance</li>
+						<li><img src="showbiz.jpg">Showbiz</li>
+						<li><img src="originofsymemtry.jpg">Origin of Symmetry</li>
+						<li><img src="absolution.jpg">Absolution</li>
 					</ul>
 				</div>
-				<div data-role="collapsible" >
-					<h3>best known for their songs</h3>
-				<ul data-role="listview">
-						<li><a href="#1" data-rel="dialog">Life Is Beautiful</a></li>
-						<li><a href="#life" >Lies of the Beautiful People</a></li>
-					</ul>
-				</div>
+				<a data-role="button" href="#hysteria">best known for their songs</a>
 			</div>
 		</div>
 		
@@ -133,10 +139,18 @@
 		</div>
 	</div>
 	
-	<div data-role="page" id="sixxAM" data-theme="b">
-		<div data-role="header" data-theme="b">
-			<a href="#mainPage" data-icon="arrow-l" data-direction="reverse">처음</a>			
-			<h1>Sixx A.M.</h1>
+	
+	
+	
+	
+	
+	
+	
+	
+	<div data-role="page" id="nightwish" data-theme="b">
+		<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="home">
+					
+			<h1>NightWish</h1>
 		</div>
 		<div data-role="content">
 				<div  style="text-align:center">
@@ -145,32 +159,25 @@
 			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
 				<div data-role="collapsible" data-collapsed="true">
 					<h3>Info</h3>
-					<p>Sixx:A.M. is a hard rock band from Los Angeles, California, formed in 2007 by Nikki Sixx, DJ Ashba, and James Michael, 
-						and was a side project of Sixx, who was also at the time bass guitarist for Mötley Crüe.</p>
+					<p>Nightwish is a symphonic metal band from Kitee, Finland. The band was formed in 1996 by lead songwriter and keyboardist Tuomas Holopainen, guitarist Emppu Vuorinen, and former lead singer Tarja Turunen[1]. The band soon picked up drummer Jukka Nevalainen, and then bassist Sami Vänskä after the release of their debut album, Angels Fall First (1997). In 2001, Vänskä was replaced by Marco Hietala, who also took over the male vocalist role previously filled by Holopainen or guest singers.[2]</p>
 				</div>
 				<div data-role="collapsible">
 					<h3>Members</h3>
 					<ul data-role="listview">
-						<li><img src="DJ_Ashba.jpg">DJ Ashba</li>
-						<li><img src="Nikki_Sixx.jpg">Vikki Sixx</li>
-						<li><img src="JamesMichael.jpg">James Michael</li>
+						<li><img src="Tuomas Holopainen.jpg">Tuomas Holopainen</li>
+						<li><img src="Troy Donockley.jpg">Troy Donockley</li>
+						<li><img src="Floor Jansen.jpg">Floor Jansen</li>
 					</ul>
 				</div>
 				<div data-role="collapsible" >
 					<h3>Ambum</h3>
 					<ul data-role="listview">
-						<li><img src="X-Mas_In_Hell.jpg">X-Mas In Hell</li>
-						<li><img src="Live_is_beautiful">Live Is Beautiful</li>
-						<li><img src="7.jpg">7</li>
+						<li><img src="once.jpg">X-Mas In Hell</li>
+						<li><img src="wishmaster.jpg">Live Is Beautiful</li>
+						<li><img src="imaginaerum.jpg">7</li>
 					</ul>
 				</div>
-				<div data-role="collapsible" >
-					<h3>best known for their songs</h3>
-				<ul data-role="listview">
-						<li><a href="#1" data-rel="dialog">Life Is Beautiful</a></li>
-						<li><a href="#life" >Lies of the Beautiful People</a></li>
-					</ul>
-				</div>
+				<a data-role="button" href="#iwant">best known for their songs</a>
 			</div>
 		</div>
 		
@@ -181,15 +188,80 @@
 		</div>
 	</div>
 	
-<div data-role="dialog" id="1" data-position="fixed">
-	<div data-role="header">
-		<h1>dialog1</h1>
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+<div data-role="page" id="life" data-position="fixed">
+	<div data-role="header" data-theme="b">
+		<h1>life is beautiful</h1>
 	</div>
 	<div data-role="content">
-		<a href="#" data-role="button"></a>
-		<a></a>
-		<!--<iframe width="789" height="444" src="https://www.youtube.com/embed/QIibdf0dYOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
-	--></div>
+			<iframe width="789" height="444" src="https://www.youtube.com/embed/QIibdf0dYOM" 
+							frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+							allowfullscreen></iframe>
+							
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="b">
+		<button data-icon="arrow-l" data-iconpos="notext" data-inline="true">Back</button>
+		<button data-icon="home" data-iconpos="notext" data-inline="true"><a href="#mainPage">home</a></button>
+		<button data-icon="refresh" data-iconpos="notext" data-inline="true">Refresh</button>
+	</div>
 </div>
+
+
+
+
+
+
+<div data-role="page" id="hysteria" data-position="fixed">
+	<div data-role="header" data-theme="b">
+		<h1>hysteria</h1>
+	</div>
+	<div data-role="content">
+			<iframe width="789" height="444" src="https://www.youtube.com/embed/mRIR1Pc6d2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+		</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="b">
+		<button data-icon="arrow-l" data-iconpos="notext" data-inline="true">Back</button>
+		<button data-icon="home" data-iconpos="notext" data-inline="true"><a href="#mainPage">home</a></button>
+		<button data-icon="refresh" data-iconpos="notext" data-inline="true">Refresh</button>
+	</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="info" data-position="fixed">
+	<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="home">
+		<h1>I wnat my tears back</h1>
+	</div>
+	<div data-role="content">
+						<a data-role="button" href="https://en.wikipedia.org/wiki/Sixx:A.M.">Sixx A.M.</a>
+						<a data-role="button" href="https://en.wikipedia.org/wiki/Muse_(band)">Muse</a>
+						<a data-role="button" href="https://en.wikipedia.org/wiki/Nightwish#Members">NightWish</a>
+	</div>
+		<div data-role="footer" data-position="fixed" align="center" data-theme="b">
+		<button data-icon="arrow-l" data-iconpos="notext" data-inline="true">Back</button>
+		<button data-icon="home" data-iconpos="notext" data-inline="true"><a href="#mainPage">home</a></button>
+		<button data-icon="refresh" data-iconpos="notext" data-inline="true">Refresh</button>
+	</div>
+</div>
+	
+	
+	
+	
+	
+	
+	
 </body>
 </html>
