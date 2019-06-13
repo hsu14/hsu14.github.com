@@ -7,6 +7,17 @@
 	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+    		$(document).ready( function() {
+    			$('#toggle').click(function(){
+    				$('#ex').fadeToggle(2000);
+    			});
+    			$('#toggle2').click(function(){
+    				$('#ex2').fadeToggle(2000);
+    			});
+    		});
+    	</script>
+	
 
 <body>
 
@@ -21,7 +32,8 @@
 			<li><a href="#muse">Muse</a></li>
 			<li><a href="#nightwish">Nightwish</a></li>
 		</ul>
-		<a data-role="button" href="#info">참고 사이트</a>
+		
+		<a data-role="button" href="#info" >참고 사이트</a>
 		<a data-role="button" href="my info.html" target="_blank">이력서</a>
 		
 		<audio controls width="100%" preload="metadata">
@@ -52,7 +64,8 @@
 		</div>
 		<div data-role="content">
 				<div  style="text-align:center">
-					<img src="Sixx_AM.jpg">
+					<button id="toggle"> toogle </button>
+					<img src="Sixx_AM.jpg" id="ex">
 				</div>			
 			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
 				<div data-role="collapsible" data-collapsed="true">
@@ -104,7 +117,8 @@
 		</div>
 		<div data-role="content">
 				<div  style="text-align:center">
-					<img src="muse.jpg">
+					<button id="toggle2"> toogle </button>
+					<img src="muse.jpg" id="ex2">
 				</div>			
 			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
 				<div data-role="collapsible" data-collapsed="true">
@@ -201,7 +215,7 @@
 	
 	
 <div data-role="page" id="life" data-position="fixed">
-	<div data-role="header" data-theme="b">
+	<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="home">
 		<h1>life is beautiful</h1>
 	</div>
 	<div data-role="content">
@@ -223,7 +237,7 @@
 
 
 <div data-role="page" id="hysteria" data-position="fixed">
-	<div data-role="header" data-theme="b">
+	<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="home">
 		<h1>hysteria</h1>
 	</div>
 	<div data-role="content">
